@@ -38,7 +38,7 @@ run_miner() {
     miner_filename=$1
 
     target_miner="0x502A820E52E569c019f22d79d849dFf5C50A57ed"
-    domains="http://172.236.220.233:8085"
+    domains="https://sgp-mining.x-phere.com,https://bkk-mining.x-phere.com,https://hkg-mining.x-phere.com,https://idn-mining.x-phere.com"
 
     echo "🚀 Starting miner..."
     if ./$miner_filename -targetMiner "$target_miner" -domain "$domains"; then
